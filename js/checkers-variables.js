@@ -12,6 +12,7 @@ const secondPlayer = {
 
 const board = {
     selector: '#checkers',
+    styleSelector: 'style',
     width: 8,
     height: 8,
     color: [ firstPlayer.color, secondPlayer.color ]
